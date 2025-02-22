@@ -5,7 +5,7 @@ namespace Mission6_Stuart.Models
     public class Collection
     {
         [Key]
-        public int MovieId { get; set; }  // Ensure this is correctly named as "MovieID"
+        public int MovieId { get; set; }  // Ensure this is correctly named as "MovieID" 
 
         [Required(ErrorMessage = "Sorry, you need to enter a movie title")]
         public string Title { get; set; }
